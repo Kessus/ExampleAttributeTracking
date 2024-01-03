@@ -1,5 +1,5 @@
 # ExampleAttributeTracking
-<strong>Attribute Tracking System</strong> example for Unreal Engine with the Gameplay Abilities plugin.
+<strong>Attribute Tracking System</strong> example for Unreal Engine with the Gameplay Abilities plugin. It can be used to track any changes made to the character's attributes, react to them and filter them in regards to how long ago they happened, were they positive/negative, how large they were or the metadata associated with them.
 
 <h3>Attribute Tracking Manager</h3>
 Attribute Tracking Manager is the main point of interaction with this system. It's preferably added to the Ability System Component itself or its owner. It utilizes Tracking Directives to allow automatic responses to any fitting attribute changes. It can also process simple querries such as "Has the attribute changed at all?" or "How big was the change?".
